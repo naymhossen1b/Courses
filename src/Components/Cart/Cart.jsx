@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-const Cart = ({ selectCours, credit, remaining }) => {
+const Cart = ({ selectCours, credit, remaining, prices }) => {
   return (
     <div>
       <div className="bg-white p-5 w-11/12 mx-auto rounded-xl mt-8">
@@ -21,7 +21,7 @@ const Cart = ({ selectCours, credit, remaining }) => {
 
         <h3 className="mt-5 text-2xl font-semibold">Total Credit Hour: {credit} </h3>
         <div className="border border-b-2 mt-5"></div>
-        <h3 className="mt-5 text-2xl font-semibold">Total Price :USD</h3>
+        <h3 className="mt-5 text-2xl font-semibold">Total Price: {prices} USD</h3>
       </div>
     </div>
   );
