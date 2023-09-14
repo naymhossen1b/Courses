@@ -1,0 +1,100 @@
+[
+    {
+      "id": 1,
+      "course_cover": "https://i.ibb.co/rsJjVBW/Rectangle-2.jpg",
+      "course_title": "Introduction to C Programming",
+      "course_description": "This course will teach you the basics of programming, including variables, data types, control flow, and functions.",
+      "course_price": 100,
+      "course_credit_time": 3
+    },
+    {
+      "id": 2,
+      "course_cover": "https://i.ibb.co/f9dRrdc/we.jpg",
+      "course_title": "Web Development with HTML and CSS",
+      "course_description": "This course will teach you how to build websites using HTML and CSS. You will learn about the basics of web design, including layout, typography, and images.",
+      "course_price": 150,
+      "course_credit_time": 4
+    },
+    {
+      "id": 3,
+      "course_cover": "https://i.ibb.co/dWSzg1V/pyth.jpg",
+      "course_title": "Python Programming for Beginners",
+      "course_description": "This course will teach you the basics of Python programming, including variables, data types, control flow, and functions. You will also learn how to use Python for web development and data science.",
+      "course_price": 200,
+      "course_credit_time": 5
+    },
+    {
+      "id": 4,
+      "course_cover": "https://i.ibb.co/6Y82jQ3/Data-Structures-and-Algorithms-Course.jpg",
+      "course_title": "Data Structures and Algorithms in Java",
+      "course_description": "This course will teach you about the fundamental data structures and algorithms used in computer science. You will learn how to implement and use these data structures and algorithms to solve common programming problems.",
+      "course_price": 250,
+      "course_credit_time": 6
+    },
+    {
+      "id": 5,
+      "course_cover": "https://i.ibb.co/Pm75xnF/maxresdefault.jpg",
+      "course_title": "Object-Oriented Programming with C++",
+      "course_description": "This course will teach you about the principles of object-oriented programming and how to implement them in C++. You will learn about classes, objects, inheritance, polymorphism, and encapsulation.",
+      "course_price": 300,
+      "course_credit_time": 7
+    },
+    {
+      "id": 6,
+      "course_cover": "https://i.ibb.co/mt6s1nq/What-is-Cloud-Computing.jpg",
+      "course_title": "Cloud Computing with AWS",
+      "course_description": "This course will teach you how to use Amazon Web Services (AWS) to build and deploy cloud applications. You will learn about the different AWS services, such as EC2, S3, and RDS.",
+      "course_price": 350,
+      "course_credit_time": 8
+    },
+    {
+      "id": 7,
+      "course_cover": "https://i.ibb.co/K5Dh1vg/Dev-Ops-Ansible-Blog-Image-1.png",
+      "course_title": "DevOps with Ansible",
+      "course_description": "This course will teach you how to use Ansible to automate your DevOps workflows. You will learn how to use Ansible to provision servers, deploy applications, and manage configuration changes.",
+      "course_price": 400,
+      "course_credit_time": 9
+    },
+    {
+      "id": 8,
+      "course_cover": "https://i.ibb.co/z6c2tmX/maxresdefault.jpg",
+      "course_title": "Machine Learning with Python",
+      "course_description": "This course will teach you how to use Python to build machine learning models. You will learn about the different types of machine learning algorithms and how to use them to solve real-world problems.",
+      "course_price": 450,
+      "course_credit_time": 10
+    },
+    {
+      "id": 9,
+      "course_cover": "https://i.ibb.co/vHJ5WJB/nlp.jpg",
+      "course_title": "Natural Language Processing with TensorFlow",
+      "course_description": "This course will teach you how to use TensorFlow to build natural language processing models. You will learn about the different types of NLP tasks and how",
+      "course_price": 480,
+      "course_credit_time": 10
+    },
+    {
+        "id": 10,
+        "course_cover": "https://i.ibb.co/qCcCD68/blog-Web-Application-Security-Top-Threats-and-6-Defensive-Methods.jpg",
+        "course_title": "Security in Web Applications",
+        "course_description": "This course will teach you about the different types of security vulnerabilities in web applications and how to mitigate them. You will learn about topics such as cross-site scripting (XSS), SQL injection, and session management.",
+        "course_price": 500,
+        "course_credit_time": 11
+      },
+      {
+        "id": 11,
+        "course_cover": "https://i.ibb.co/r3bFhBk/database-development-300x172.png",
+        "course_title": "Database Design and Development",
+        "course_description": "This course will teach you how to design and develop databases. You will learn about the different types of databases, such as relational databases and NoSQL databases. You will also learn how to create and manage database tables, views, and stored procedures.",
+        "course_price": 550,
+        "course_credit_time": 12
+      },
+      {
+        "id": 12,
+        "course_cover": "https://i.ibb.co/JvR7tFy/6078b650748b8558d46ffb7f-Flutter-app-development.jpg",
+        "course_title": "Mobile App Development with Flutter",
+        "course_description": "This course will teach you how to develop mobile apps for Android and iOS using the Flutter framework. You will learn about the basics of Flutter, such as widgets, state management, and routing. You will also learn how to build and deploy your apps to the Google Play Store and the Apple App Store.",
+        "course_price": 600,
+        "course_credit_time": 13
+      }
+    ]
+    
+  
