@@ -8,20 +8,22 @@ const Cart = ({ selectCours, credit, remaining, prices }) => {
         </h3>
         <div className="border border-b-2 mt-5"></div>
         <div className="pt-5">
-          <h3 className="text-black text-2xl font-bold pb-8">
-            Course Name
-          </h3>
+          <h3 className="text-black text-2xl font-bold pb-8">Course Name</h3>
         </div>
 
         {selectCours.map((cours) => (
-          <li key={cours.id} className="text-black">
+          <li key={cours.id} className="text-black list-inside list-decimal">
             {cours.course_title}
           </li>
         ))}
 
-        <h3 className="mt-5 text-2xl font-semibold">Total Credit Hour: {credit} </h3>
+        <h3 className="mt-5 text-2xl font-semibold">
+          Total Credit Hour: {credit}{" "}
+        </h3>
         <div className="border border-b-2 mt-5"></div>
-        <h3 className="mt-5 text-2xl font-semibold">Total Price: {prices} USD</h3>
+        <h3 className="mt-5 text-2xl font-semibold">
+          Total Price: {prices} USD
+        </h3>
       </div>
     </div>
   );

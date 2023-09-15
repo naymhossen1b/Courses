@@ -3,6 +3,7 @@ import Cart from "../Cart/Cart";
 import { FiDollarSign } from "react-icons/fi";
 import { BsBook } from "react-icons/bs";
 import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const Courses = () => {
   const [courses, setCourses] = useState([]);
@@ -24,10 +25,10 @@ const Courses = () => {
     let time = sector.course_credit_time;
     let price = sector.course_price;
     // console.log(cost);
+
     if (isCredit) {
-      // toast("Alrady Purched")
-      // <ToastContainer></ToastContainer>
-      alert("Alrady Purched");
+      toast.warn("Alrady Booked!");
+      
     } else {
       selectCours.forEach((money) => {
         price = price + money.course_price;
@@ -35,7 +36,7 @@ const Courses = () => {
       });
       const totalRemaining = 20 - time;
       if (time > 20) {
-        alert("limite Out Budget");
+        toast.warn("Credit Limite Over!");
       } else {
         setCredit(time);
         setTotalPrices(price);
@@ -103,6 +104,7 @@ const Courses = () => {
           ></Cart>
         </div>
       </div>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
