@@ -51,6 +51,16 @@ const Courses = () => {
       <div className="flex gap-2 w-11/12 mx-auto">
         <div className="grid md:grid-cols-3 gap-4 space-y-3 w-2/3 ">
           {courses.map((sector) => (
+
+            // <div key={sector.id} className="bg-white p-2 rounded-xl">
+            //   <img className="rounded-xl w-11/12 mx-auto h-36" src={sector.course_cover} alt="" />
+
+            //   <div className="mt-5">
+            //   <h2 className="font-bold">{sector.course_title}</h2>
+            //   </div>
+            // </div>
+
+
             <div
               key={sector.id}
               className="rounded-xl bg-white shadow-xl p-2 space-y-5"
@@ -92,6 +102,8 @@ const Courses = () => {
                 </div>
               </div>
             </div>
+
+
           ))}
         </div>
         {/* Cart section box */}

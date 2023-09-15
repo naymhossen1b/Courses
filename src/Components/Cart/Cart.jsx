@@ -17,6 +17,7 @@ const Cart = ({ selectCours, credit, remaining, prices }) => {
           </li>
         ))}
 
+        <div className="border border-b-2 mt-5"></div>
         <h3 className="mt-5 text-2xl font-semibold">
           Total Credit Hour: {credit}{" "}
         </h3>
