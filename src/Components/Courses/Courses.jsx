@@ -5,11 +5,11 @@ import { BsBook } from "react-icons/bs";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const Courses = () => {
+const Courses = () =>  {
   const [courses, setCourses] = useState([]);
   const [selectCours, setSelectedCourses] = useState([]);
   const [credit, setCredit] = useState(0);
-  const [remaining, setRemaining] = useState(0);
+  const [remaining, setRemaining] = useState(20);
   const [prices, setTotalPrices] = useState(0);
 
   useEffect(() => {
@@ -50,20 +50,11 @@ const Courses = () => {
       <div className="lg:flex grid  gap-2 w-11/12 mx-auto pb-8">
         <div className="grid md:grid-cols-3 gap-4  lg:w-2/3 ">
           {courses.map((sector) => (
-            <div
-              key={sector.id}
-              className="rounded-xl  bg-white shadow-xl p-2 space-y-5"
-            >
-              <img
-                src={sector.course_cover}
-                alt="Shoes"
-                className="rounded-xl w-full h-40 "
-              />
+            <div key={sector.id} className="rounded-xl  bg-white shadow-xl p-2 space-y-5">
+              <img src={sector.course_cover} alt="Shoes" className="rounded-xl w-full h-40 " />
               <div className="items-center">
                 <h2 className="font-bold">{sector.course_title}</h2>
-                <p className="pt-3">
-                  {sector.course_description.slice(0, 100)}
-                </p>
+                <p className="pt-3">{sector.course_description.slice(0, 100)}</p>
 
                 <div className="flex justify-between items-center pt-5 font-bold">
                   <div className="flex items-center gap-2">
